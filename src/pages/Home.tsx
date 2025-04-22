@@ -39,7 +39,7 @@ export default function Home() {
               </div>
               <div className="mt-8 flex justify-center gap-6">
                 <a
-                  href="https://github.com/abhinav1232"
+                  href="https://github.com/Ankush-ojha-808"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-foreground/70 transition-colors hover:text-accent"
@@ -47,7 +47,7 @@ export default function Home() {
                   <Github size={24} />
                 </a>
                 <a
-                  href="https://linkedin.com/in/abhinavkumarcs"
+                  href="https://www.linkedin.com/in/ankush-ojha/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-foreground/70 transition-colors hover:text-accent"
@@ -63,7 +63,7 @@ export default function Home() {
                   <Twitter size={24} />
                 </a>
                 <a
-                  href="mailto:ak2004cs@gmail.com"
+                  href="ojhaankush808@gmail.com"
                   className="text-foreground/70 transition-colors hover:text-accent"
                 >
                   <Mail size={24} />
