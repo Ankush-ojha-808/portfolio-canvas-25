@@ -1,4 +1,3 @@
-
 import React from "react";
 import { ArrowRight, Download, Github, Linkedin, Mail, Twitter } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -19,10 +18,10 @@ export default function Home() {
           <div className="container mx-auto flex min-h-[calc(100vh-4rem)] flex-col items-center justify-center px-4 py-16 md:py-24">
             <div className="text-center">
               <h1 className="mb-6 text-4xl font-bold leading-tight sm:text-5xl md:text-6xl">
-                Hi, I'm <span className="gradient-text">Your Name</span>
+                Hi, I'm <span className="gradient-text">Abhinav Kumar</span>
               </h1>
               <p className="mx-auto mb-8 max-w-2xl text-xl text-muted-foreground">
-                Frontend Developer specializing in building exceptional digital experiences
+                Aspiring Computer Science Engineer | Frontend Developer & Tech Enthusiast
               </p>
               <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
                 <Link to="/contact">
@@ -40,7 +39,7 @@ export default function Home() {
               </div>
               <div className="mt-8 flex justify-center gap-6">
                 <a
-                  href="https://github.com"
+                  href="https://github.com/abhinav1232"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-foreground/70 transition-colors hover:text-accent"
@@ -48,7 +47,7 @@ export default function Home() {
                   <Github size={24} />
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://linkedin.com/in/abhinavkumarcs"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-foreground/70 transition-colors hover:text-accent"
@@ -56,7 +55,7 @@ export default function Home() {
                   <Linkedin size={24} />
                 </a>
                 <a
-                  href="https://twitter.com"
+                  href="https://twitter.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-foreground/70 transition-colors hover:text-accent"
@@ -64,7 +63,7 @@ export default function Home() {
                   <Twitter size={24} />
                 </a>
                 <a
-                  href="mailto:your-email@example.com"
+                  href="mailto:ak2004cs@gmail.com"
                   className="text-foreground/70 transition-colors hover:text-accent"
                 >
                   <Mail size={24} />
@@ -80,9 +79,7 @@ export default function Home() {
             <div>
               <h2 className="mb-4 text-3xl font-bold">About Me</h2>
               <p className="mb-6 text-muted-foreground">
-                I'm a passionate frontend developer with expertise in building responsive, 
-                user-friendly web applications. With a strong foundation in modern JavaScript frameworks 
-                and a keen eye for design, I create engaging digital experiences that solve real-world problems.
+                I am a passionate Computer Science undergrad at Lovely Professional University, deeply interested in frontend development, algorithms, and problem-solving. With a strong academic background and hands-on project experience, I thrive on learning new technologies and tackling challenging programming problems. My journey so far includes internships, project work in web development and machine learning, and consistent high performance in coding contests.
               </p>
               <Link to="/about">
                 <Button variant="outline">

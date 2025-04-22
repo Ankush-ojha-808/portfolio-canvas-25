@@ -3,7 +3,7 @@ import React from "react";
 import Layout from "@/components/Layout";
 import PageHeader from "@/components/PageHeader";
 import SkillBadge from "@/components/SkillBadge";
-import { skills } from "@/data/resume";
+import { skills, education } from "@/data/resume";
 
 export default function About() {
   return (
@@ -29,22 +29,18 @@ export default function About() {
 
             <div>
               <h2 className="mb-4 text-2xl font-bold">My Story</h2>
-
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  Hello! I'm a passionate frontend developer with over 5 years of experience in creating dynamic, responsive web applications. My journey in web development began during my college years, where I discovered my love for crafting intuitive user interfaces.
+                  Hi, I'm Abhinav Kumar — a Computer Science Engineering undergrad at Lovely Professional University, passionate about frontend development, data structures, and algorithms.
                 </p>
-
                 <p>
-                  After graduating with a degree in Computer Science, I joined a startup where I honed my skills in modern JavaScript frameworks and component-based architecture. This experience taught me the importance of writing clean, maintainable code and collaborating effectively with cross-functional teams.
+                  I have a strong foundation in OOP, DBMS, and computer networks, and I love working on challenging algorithmic problems and real-world projects.
                 </p>
-
                 <p>
-                  Currently, I'm focused on building accessible, inclusive products and digital experiences at Tech Solutions Inc. When I'm not coding, you can find me hiking, reading sci-fi novels, or experimenting with new technologies.
+                  My experience includes internships at GeeksForGeeks focusing on C++ and DSA, as well as hands-on projects like credit card fraud detection and an N-Queen visualizer built with React.js.
                 </p>
-
                 <p>
-                  I believe in continuous learning and regularly attend tech conferences and workshops to stay updated with the latest industry trends and best practices.
+                  I'm always eager to learn new technologies, collaborate on impactful projects, and grow as a developer. Beyond tech, I value leadership, teamwork, and effective communication.
                 </p>
               </div>
             </div>
@@ -53,27 +49,20 @@ export default function About() {
           {/* Education Section */}
           <div className="mb-16">
             <h2 className="mb-6 text-2xl font-bold">Education</h2>
-            
             <div className="space-y-6">
-              <div className="rounded-lg border border-border bg-card p-6 shadow-sm">
-                <h3 className="mb-1 text-xl font-semibold">
-                  Master of Science in Computer Science
-                </h3>
-                <p className="text-muted-foreground">Tech University • 2018 - 2020</p>
-                <p className="mt-2">
-                  Specialized in Artificial Intelligence and Machine Learning. Thesis on reinforcement learning applications in automated systems.
-                </p>
-              </div>
-
-              <div className="rounded-lg border border-border bg-card p-6 shadow-sm">
-                <h3 className="mb-1 text-xl font-semibold">
-                  Bachelor of Science in Software Engineering
-                </h3>
-                <p className="text-muted-foreground">State University • 2014 - 2018</p>
-                <p className="mt-2">
-                  Graduated with honors. Active member of Computer Science Club and participated in multiple hackathons.
-                </p>
-              </div>
+              {education.map((edu, i) => (
+                <div className="rounded-lg border border-border bg-card p-6 shadow-sm" key={i}>
+                  <h3 className="mb-1 text-xl font-semibold">
+                    {edu.degree}
+                  </h3>
+                  <p className="text-muted-foreground">
+                    {edu.institution} • {edu.location} • {edu.period}
+                  </p>
+                  {edu.description && (
+                    <p className="mt-2">{edu.description}</p>
+                  )}
+                </div>
+              ))}
             </div>
           </div>
 
