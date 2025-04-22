@@ -20,7 +20,7 @@ export default function About() {
             <div className="flex items-center justify-center">
               <div className="overflow-hidden rounded-lg">
                 <img
-                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=400&h=500"
+                  src="https://media.licdn.com/dms/image/v2/D4D03AQHJXaVnxfUSMg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1670422543586?e=1750896000&v=beta&t=sjZGIQVyXCmBeTNF_q50KLidANoD6XasNH3mUUt7bLs"
                   alt="Profile"
                   className="h-auto w-full object-cover"
                 />
@@ -31,7 +31,7 @@ export default function About() {
               <h2 className="mb-4 text-2xl font-bold">My Story</h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  Hi, I'm Abhinav Kumar — a Computer Science Engineering undergrad at Lovely Professional University, passionate about frontend development, data structures, and algorithms.
+                  Hi, I'm Ankush Kumar Ojha — a Computer Science Engineering undergrad at Lovely Professional University, passionate about frontend development, data structures, and algorithms.
                 </p>
                 <p>
                   I have a strong foundation in OOP, DBMS, and computer networks, and I love working on challenging algorithmic problems and real-world projects.

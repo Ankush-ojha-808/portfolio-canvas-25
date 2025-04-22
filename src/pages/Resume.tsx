@@ -15,11 +15,14 @@ export default function Resume() {
           <PageHeader title="Resume" subtitle="My professional background and qualifications" />
 
           <div className="mb-8 flex justify-center">
-            <Button>
-              <Download className="mr-2" size={16} />
-              Download Resume (PDF)
-            </Button>
+          <a href="/Ankush_Ojha_Resume.pdf" download="Ankush_Kumar_Ojha_Resume.pdf">
+              <Button>
+                <Download className="mr-2" size={16} />
+                Download Resume (PDF)
+              </Button>
+            </a>
           </div>
+
 
           {/* Experience Section */}
           <section className="mb-12">

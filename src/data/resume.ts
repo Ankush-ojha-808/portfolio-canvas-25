@@ -52,7 +52,7 @@ export const education: Education[] = [
 
 export const experiences: Experience[] = [
   {
-    position: "Summer Trainee – Data Structure and Algorithm using C++",
+    position: "Summer Training – Data Structure and Algorithm using C++",
     company: "GeeksForGeeks",
     location: "Remote",
     period: "May 2024 – Aug 2024",
@@ -94,6 +94,10 @@ export const skills: Skills[] = [
   {
     category: "Tools",
     skills: ["Docker", "Jenkins", "Postman", "Git/GitHub", "Tableau", "Microsoft Excel"]
+  },
+  {
+    category: "Frameworks",
+    skills: ["Numpy", "Panda", "Scikit-Learn", "Matplotlib", "Reach.js"]
   },
   {
     category: "Soft Skills",

@@ -18,7 +18,7 @@ export default function Home() {
           <div className="container mx-auto flex min-h-[calc(100vh-4rem)] flex-col items-center justify-center px-4 py-16 md:py-24">
             <div className="text-center">
               <h1 className="mb-6 text-4xl font-bold leading-tight sm:text-5xl md:text-6xl">
-                Hi, I'm <span className="gradient-text">Abhinav Kumar</span>
+                Hi, I'm <span className="gradient-text">Ankush Kumar Ojha</span>
               </h1>
               <p className="mx-auto mb-8 max-w-2xl text-xl text-muted-foreground">
                 Aspiring Computer Science Engineer | Frontend Developer & Tech Enthusiast
@@ -92,7 +92,7 @@ export default function Home() {
               <div className="rounded-full bg-gradient-to-br from-primary to-accent p-1">
                 <div className="aspect-square h-64 w-64 overflow-hidden rounded-full bg-muted">
                   <img
-                    src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=256&h=256"
+                    src="https://media.licdn.com/dms/image/v2/D4D03AQHJXaVnxfUSMg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1670422543586?e=1750896000&v=beta&t=sjZGIQVyXCmBeTNF_q50KLidANoD6XasNH3mUUt7bLs"
                     alt="Profile"
                     className="h-full w-full object-cover"
                   />
